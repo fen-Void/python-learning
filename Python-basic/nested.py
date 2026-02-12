@@ -1,6 +1,6 @@
-# Example 2: Ticket Price Calculator (Age + Membership)
+# # Example 2: Ticket Price Calculator (Age + Membership)
 
-# ge = int(input("Age bata: "))
+# age = int(input("Age bata: "))
 # is_member = input("Gym/Cinema member hai? (yes/no): ").lower() == "yes"
 
 # if age >= 18:
@@ -17,18 +17,43 @@
 
 # Number Category Checker (Nested)
 
-num = int(input("Enter your No: "))
+# num = int(input("Enter your No: "))
 
-if num > 0 :
-    if num%2==0:
-        print("Positive Even")
-    else:
-        print("Positive odd")
-elif num <0 :
-    if num%2==0:
-        print("Negative even")
-    else:
-        print("Negative odd")
+# if num > 0 :
+#     if num%2==0:
+#         print("Positive Even")
+#     else:
+#         print("Positive odd")
+# elif num <0 :
+#     if num%2==0:
+#         print("Negative even")
+#     else:
+#         print("Negative odd")
 
-else:
-    print ("Zero")
+# else:
+#     print ("Zero")
+
+# count = 0
+
+# for i in range(1, 4):
+#     for j in range(1, 3):
+#         count = count + 1
+
+# print(count)
+
+# count = 0
+
+# for i in range(1, 6):
+#     for j in range(1, i):
+#         count = count + 1
+
+# print(count)
+
+count = 0
+
+for i in range(1, 6):
+    for j in range(1, 6):
+        if j > i:
+            count += 1
+
+print(count)
